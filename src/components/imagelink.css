@@ -1,0 +1,22 @@
+.image-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-link img {
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 0.7rem;
+  transition: 0.4s ease;
+}
+
+.image-link img:hover {
+  scale: 1.04;
+  transition: 0.4s ease;
+}
+
+.image-link a {
+  color: #000;
+}
