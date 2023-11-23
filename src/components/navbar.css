@@ -1,0 +1,31 @@
+.navbar {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: 1rem;
+  width: auto;
+  padding: 5px 35px;
+  border-radius: 50px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  height: 55px;
+  background: #fff;
+  justify-content: space-between;
+}
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+img.logo {
+  height: 45px;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  padding: 0;
+}

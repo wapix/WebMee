@@ -1,12 +1,48 @@
 #root {
-  max-width: 767px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  width: 100%;
 }
 
 .main {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.builder {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 2rem;
+}
+
+.builder-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.builder-elements_card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.builder-elements_card input {
+  max-width: 390px;
+  padding: 9px 12px;
+  background: transparent;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #000;
+  color: #000;
 }
 
 .section {
