@@ -1,7 +1,7 @@
 #root {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 5.5rem 2rem 2rem;
   text-align: center;
   width: 100%;
 }
@@ -47,4 +47,13 @@
 
 .section {
   margin-bottom: 2rem;
+}
+
+.preview {
+  width: 40%;
+  padding: 1rem;
+  height: 400px;
+  border: 6px solid;
+  background: #fbfbfb;
+  border-radius: 15px;
 }
